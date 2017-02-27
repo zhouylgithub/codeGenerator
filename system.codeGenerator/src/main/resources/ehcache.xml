@@ -1,0 +1,31 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="ehcache.xsd">
+
+    <cache name="MdProjectRepository"
+           maxEntriesLocalHeap="200"
+           timeToLiveSeconds="600">
+    </cache>
+    <cache name="MdModuleRepository"
+           maxEntriesLocalHeap="200"
+           timeToLiveSeconds="600">
+    </cache>
+    <cache name="MdModuleDependenceRepository"
+           maxEntriesLocalHeap="200"
+           timeToLiveSeconds="600">
+    </cache>    
+    <cache name="MdClassRepository"
+           maxEntriesLocalHeap="200"
+           timeToLiveSeconds="600">
+    </cache>    
+    <cache name="MdBusinessKeyRepository"
+           maxEntriesLocalHeap="200"
+           timeToLiveSeconds="600">
+    </cache>    
+    <cache name="MdAttributeRepository"
+           maxEntriesLocalHeap="200"
+           timeToLiveSeconds="600">
+    </cache>    
+    
+    
+
+</ehcache>
